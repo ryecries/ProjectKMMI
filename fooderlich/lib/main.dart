@@ -15,6 +15,7 @@ class Fooderlich extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = FooderlichTheme.light();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Fooderlich',
       theme: theme,
       home: MultiProvider(

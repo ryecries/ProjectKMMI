@@ -10,12 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^2.0.7
+
   google_fonts: ^2.1.0
   provider: ^5.0.0
-  flutter_colorpicker: ^0.4.0
   intl: ^0.17.0
   uuid: ^3.0.4
-
+  flutter_colorpicker: ^0.4.0
+  cupertino_icons: ^1.0.2
+  
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +33,5 @@ flutter:
     - assets/sample_data/
     - assets/profile_pics/
     - assets/fooderlich_assets/
+
+ 
