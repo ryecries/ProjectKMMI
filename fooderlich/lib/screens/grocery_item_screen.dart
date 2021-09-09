@@ -216,6 +216,10 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
             ),
             TextButton(
               child: const Text('Select'),
+              style: ButtonStyle(
+                foregroundColor:
+                    MaterialStateProperty.all<Color>(Colors.orange[300]),
+              ),
               onPressed: () async {
                 final currentDate = DateTime.now();
                 final selectedDate = await showDatePicker(
@@ -254,6 +258,10 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
             ),
             TextButton(
               child: const Text('Select'),
+              style: ButtonStyle(
+                foregroundColor:
+                    MaterialStateProperty.all<Color>(Colors.orange[300]),
+              ),
               onPressed: () async {
                 final timeOfDay = await showTimePicker(
                   initialTime: TimeOfDay.now(),
@@ -286,6 +294,10 @@ class _GroceryItemScreenState extends State<GroceryItemScreen> {
         ),
         TextButton(
           child: const Text('Select'),
+          style: ButtonStyle(
+            foregroundColor:
+                MaterialStateProperty.all<Color>(Colors.orange[300]),
+          ),
           onPressed: () {
             showDialog(
               context: context,
