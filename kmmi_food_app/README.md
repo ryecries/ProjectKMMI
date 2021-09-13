@@ -1,6 +1,7 @@
 # kmmi_food_app
 
-A new Flutter project.
+Muhammad Irfan Ardiansyah
+1917051034
 
 ## Getting Started
 
