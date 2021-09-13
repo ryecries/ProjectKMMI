@@ -1,7 +1,7 @@
 # kmmi_food_app
 
-Muhammad Irfan Ardiansyah
-1917051034
+- Muhammad Irfan Ardiansyah
+- 1917051034
 
 ## Getting Started
 
